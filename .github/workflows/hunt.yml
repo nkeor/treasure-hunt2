@@ -32,4 +32,4 @@ jobs:
           sudo apt install -y $(cat deps.txt)
 
       - name: Start Treasure Hunt
-        run: yarn start ${{ github.event.inputs.repo }}
+        run: yarn start ${{ github.event.inputs.invite }}
