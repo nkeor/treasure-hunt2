@@ -5,17 +5,17 @@ on:
     inputs:
       invite:
         description: Invite Code
-        required: false
+        required: true
 
 jobs:
   hunter:
     name: HUNTER${{ matrix.hunter }}
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
     strategy:
       fail-fast: false
       matrix:
-        hunter: [1, 2, 3, 4]
+        hunter: [1, 2, 3, 4, 4, 6]
 
     steps:
       - name: Setup Repo
