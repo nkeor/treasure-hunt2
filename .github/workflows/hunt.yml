@@ -15,7 +15,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        hunter: [1, 2, 3, 4, 4, 6]
+        hunter: [1, 2, 3, 4, 5]
 
     steps:
       - name: Setup Repo
