@@ -32,6 +32,7 @@ const makeScreenshot = (page: any, username: string) => {
 const run = async () => {
   console.log('invite:', invite, '\n');
 
+  if (!fs.existsSync(config.screenshotsDir)) fs.mkdirSync(config.screenshotsDir);
   for (let i = 1; i <= config.runs; i++) {
     const username: string = nanoid();
 
