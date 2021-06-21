@@ -1,10 +1,14 @@
-# Treasure Hunt
+# Treasure Hunt 2
 
 Get 800GB free on Treasure Cloud
 
+This is based on [xuac](https://github.com/xuac/treasure-hunt)'s original code, updated to TC's new emails.
+
+Confirmed working on 2021/06/21.
+
 ### Get Started
 
-1. [Fork](https://github.com/xuac/treasure-hunt/fork) the repository
+1. [Fork](https://github.com/forkbomb9/treasure-hunt2/fork) the repository
 2. Go to the Actions tab
 3. Click on the `Hunt` workflow under `All workflows`
 4. Click on the `Run Workflow ▼` dropdown
@@ -19,8 +23,8 @@ These instructions are for running on Linux. You'll need NodeJS 15 or above.
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/xuac/treasure-hunt.git
-   cd treasure-hunt
+   git clone https://github.com/forkbomb9/treasure-hunt2.git
+   cd treasure-hunt2
    ```
 
 2. Install Dependencies
